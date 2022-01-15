@@ -1,0 +1,6 @@
+num = input()
+abc = int(num)
+num = list(num)
+bca = 100*int(num[1]) + 10*int(num[2]) + int(num[0])
+cab = 100*int(num[2]) + 10*int(num[0]) + int(num[1])
+print(abc + bca + cab)
