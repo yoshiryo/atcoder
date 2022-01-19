@@ -2,7 +2,7 @@ import os
 import pathlib
 
 name = input("追加したいディレクトリの名前を入力 : ")
-dir_name = "C:\\Users\\ryota\\Desktop\\atcoder\\" + name + "\\" + name
+dir_name = "" + name + "\\" + name
 first_num, end_num = map(int, input("追加するディレクトリの数字を入力 : ").split())
 
 for num in range(first_num, end_num + 1):
