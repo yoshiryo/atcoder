@@ -1,0 +1,5 @@
+s1, s2, s3 = input().split()
+s1 = s1.capitalize()
+s2 = s2.capitalize()
+s3 = s3.capitalize()
+print(s1[0] + s2[0] + s3[0])
